@@ -1,20 +1,29 @@
 {
   "status": {
     "cleaning": "Reinigen",
+    "auto": "Automatisches reinigen",
+    "spot": "Punktreinigung",
+    "edge": "Eckenreinigung",
+    "single_room": "Zimmerreinigung",
     "paused": "Pausiert",
     "idle": "Untätig",
+    "stop": "Gestoppt",
     "charging": "Aufladen",
     "returning home": "Rückkehr zu Dockingstation",
     "returning": "Rückkehr zu Dockingstation",
-    "segment cleaning": "Zimmerreinigung",
     "docked": "Angedockt",
+    "unknown": "Unbekannt",
+    "offline": "Offline",
     "error": "Fehler"
   },
   "source": {
+    "gentle": "Sanft",
     "silent": "Leise",
     "standard": "Normal",
     "medium": "Turbo",
-    "turbo": "Max."
+    "turbo": "Max.",
+    "normal": "Normal",
+    "high": "Hoch"
   },
   "common": {
     "name": "Vacuum Card",
@@ -25,6 +34,7 @@
     "stop": "Stop",
     "return_to_base": "Dock",
     "locate": "Staubsauger lokalisieren"
+    "not_available": "Staubsauger ist nicht verfügbar"
   },
   "error": {
     "missing_entity": "Angabe der Entität ist erforderlich!"
@@ -39,6 +49,9 @@
     "show_name": "Zeige Namen",
     "show_name_aria_label_on": "Schalte 'Zeige Namen' ein",
     "show_name_aria_label_off": "Schalte 'Zeige Namen' aus",
+    "show_status": "Zeige Status",
+    "show_status_aria_label_on": "Schalte 'Zeige Status' ein",
+    "show_status_aria_label_off": "Schalte 'Zeige Status' aus",
     "show_toolbar": "Zeige Toolbar",
     "show_toolbar_aria_label_on": "Schalte 'Zeige Toolbar' ein",
     "show_toolbar_aria_label_off": "Schalte 'Zeige Toolbar' aus",
